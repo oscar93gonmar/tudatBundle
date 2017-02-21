@@ -118,3 +118,6 @@ if(USE_PAGMO)
   add_subdirectory( "${PROJECTROOT}/tudatExampleApplications/libraryExamples/PaGMOEx/")
 endif()
 add_subdirectory( "${PROJECTROOT}/tudatExampleApplications/templateApplication/TemplateApplication")
+
+# Also build my application together with Tudat Bundle
+add_subdirectory( "${PROJECTROOT}/tudatApplications/Application_assigment_Oscar/spaceProjectAssignment1")
